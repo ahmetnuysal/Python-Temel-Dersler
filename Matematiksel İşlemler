@@ -17,6 +17,10 @@ Bölme
 Üstlü
 [in] print(2**3)
 [out] 8
+
+Mod  #mod 10'u 3 böler ve kalanı bastırır
+[in] print(10%3)
+[out] 1
 ---------------------------------
 [in] KullanıcıYasi=15    #Kullanıcı adını tanımlıyoruz
 [in] print(KullanıcıYasi * 3)
