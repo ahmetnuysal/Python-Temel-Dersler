@@ -1,0 +1,2 @@
+# Python-Temel
+--TEMEL PYTHON KONULARI VE ÖRNEKLERİ İÇERİR--
