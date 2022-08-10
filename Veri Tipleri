@@ -1,0 +1,11 @@
+int (integer) : Tam Sayı
+float : Kesirli Sayı
+str (sting) : Kelime
+
+[in] x=10
+     y=20
+     sonuc=x/y
+     print(sonuc)
+[out] 0.5
+[in] type(sonuc) #type komutu sonucun türünü söyler
+[out] float
