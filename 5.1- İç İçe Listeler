@@ -1,0 +1,18 @@
+#nested list
+NestedList=[0,4,"python",[1,2,3],["a","b","c"]
+
+[in]  print(NestedList[0])
+[out] 0
+-------------------------------
+[in]  print(NestedList[3] 
+[out] [1,2,3]
+------------------------------
+[in]  print(NestedList[3][2])   #liste içindeki 3. değerin (liste olduğu için) içindeki 2. değeri bastırır
+[out] 2
+------------------------------
+[in]  numara_listesi=[0,1,2,3,4,5,6,7,8,9]
+      print(numara_listesi[3:8]  # yazdırmaya listedeki 3. değerden başlar ve 8. değere kadar bastırır.
+[out] [3,4,5,6,7,] 
+-----------------------------
+[in]  print(numara_listesi[::3])  #listeyi 3'er 3'er bastırır
+[out] [0,3,6,9]
