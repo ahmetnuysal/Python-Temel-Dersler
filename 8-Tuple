@@ -1,0 +1,12 @@
+#En baştan bir liste oluşturulur fakat daha sonradan içine ekleme veya çıkarma yapılamaz
+
+[in]  ÖrnekTuple=[1,2,"c",4.5]
+      print(type(ÖrnekTuple))
+[out] tuple
+
+[in]  ÖrnekTuple[0]=100    #normalde listedeki değerler bu şekilde değiştirilebilir ancak tuple olduğu için değer değiştirilemez
+[out] ERROR 
+
+[in]  ÖrnekTuple=list(ÖrnekTuple)     #Tuple'ı listeye çevirebiliriz ve bu şekilde ekleme çıkarma yapabiliriz
+      print(type(ÖrnekTuple))     
+[out] list
