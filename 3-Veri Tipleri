@@ -46,3 +46,8 @@ STRING'I FLOAT'A ÇEVİRME
 [in] float(x)=x
      type(x)
 [out] float
+-----------------------
+#len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
+[in]benim_adim="ahmet uysal"
+    len(benim_adim)
+[out] 11
