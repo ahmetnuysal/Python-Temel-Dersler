@@ -1,0 +1,45 @@
+benim_listem=[10,20,30,40,50]
+
+[in]  print(type(benim_listem))
+[out] list
+---------------------------
+[in]  benim_listem[1]=200
+      print(benim_listem)     #listedeki 2. değeri 200 ile değiştirir
+[out] [10,200,30,40,50]
+--------------------------
+[in]  x=10
+      y=20
+      listem=[x,y]
+      print(listem)
+[out] [10,20]
+---------------------------
+[in]  benim_listem.append(70)
+      print(benim_listem)     # .append() ile listenin sonuna değer ekleyebiliriz
+[out] [10,20,30,40,50,70]
+---------------------------
+[in]  benim_listem.count(10)  #.count() listede içine yazılan değerin kaç tane olduğunu söyler
+[out] 1
+--------------------------
+YeniListe=[10,25,45,69,123]
+
+[in]  YeniListe.pop()        #.pop() listedeki son elemanı listeden çıkartır
+      print(YeniListe)
+[out] [10,25,45,69]
+--------------------------
+[in]  YeniListe.reverse()
+      print(YeniListe)       # .reverse() listeyi ters çeviri
+[out] [69,45,25,10]
+-------------------------
+Liste=[1,4,6,2,3,7,5]
+
+[in]  Liste.sort()          # .sort listeyi küçükten büyüğe ya da alfabetik sıraya göre sıralar
+      print(Liste)
+[out] [1,2,3,5,6,7]
+---------------------------
+[in]  Liste.remove(3)
+      print(Liste)         #.remove() belirtilen değeri listeden çıkartır, eğer o değerden 2 tane varsa 1 tanesi çıkartılır
+[out] [1,2,5,6,7]
+---------------------------
+[in]  ListeToplamı = Liste + YeniListe
+      print(ListeToplamı)            #iki listeyi toplayıp tek liste içinde yazabiliriz
+[out] [1,2,5,6,7,10,25,45,69]
