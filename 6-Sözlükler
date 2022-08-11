@@ -16,10 +16,6 @@ sözlük={"mercedes":200,100:"BMW"}
 [in]  Yemek={"Sıcak:{"iskender":200,"çorba":300},"Soğuk":{"ayran":100,"cacık":250}}
       print(Yemek["sıcak"]["çorba"]
 [out] 300
-
+                                       #Yemek sözlüğündeki sıcak içindeki sözlükte bulunan çorbanın değerini bastırır
 [in]  print(Yemek["soğuk"]["cacık"]
-[out] 259
-
-[in] 
-
-[in] 
+[out] 250
