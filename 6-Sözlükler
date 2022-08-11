@@ -1,1 +1,17 @@
+[in]  YemekKalori={"elma":100, "tost":150}
+      print(YemekKalori["elma"])
+[out] 100
+----------------------------------------------
+[in]  print(YemekKalori.items()
+[out] direct_items([('elma':100,'tost':150)])
+[in] 
 
+[in] 
+
+[in] 
+
+[in] 
+
+[in] 
+
+[in] 
