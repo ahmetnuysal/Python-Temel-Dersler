@@ -1,0 +1,18 @@
+[in]  x=input(x değerini giriniz: ")
+      y=input(y değerini giriniz: ")
+      if x>y:   #eğer x y'den büyük ise alttaki işlem uygulanacak
+          print(f"x y'den büyüktür, çünkü x'in değeri {x} ve y'nin değeri {y})     #kullanıcıdan hangi x değeri gelirse çıktıda x yerine o değer bastırılır 
+      elif x<y:  #eğer x y'den küçük ise alttaki işlem uygulanacak
+          print(f"x y'den küçüktür, çünkü x'in değeri {x} ve y'nin değeri {y})
+      else:
+          print("iki sayı eşittir")
+[out] x değerini giriniz: 5
+      y değerini giriniz: 3
+      x y'den büyüktür, çünkü x'in değeri 5 ve y'nin değeri 3
+[out] x değerini giriniz: 1
+      y değerini giriniz: 3
+      x y'den küçüktür, çünkü x'in değeri 1 ve y'nin değeri 3
+[out] x değerini giriniz: 3
+      y değerini giriniz: 3
+      iki sayı eşittir
+-------------------------------------------------
