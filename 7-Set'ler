@@ -1,0 +1,23 @@
+#set içinde her elemandan 1 tane bulunur
+
+[in]  setim={"a","b","c","d","a","c"}
+      print(setim)
+[out] {'a','b','c','d'}
+---------------------------------------------
+#listeyi set'e çevirme 
+[in]  örnek_liste=[0,1,1,2,3,4,4]
+      tekil_set=set(örnek_liste)   #listeyi set'e çeviri
+      tekil_liste=list(tekil_set)  #set'i listeye çeviri
+      print(tekil_liste)
+[out] [0,1,2,3,4]
+-------------------------------------------
+[in]  bos_set=set()
+      print(bos_set)   #boş bir set oluşturur
+[out] set()
+
+[in]  bos_set.add(10)
+      bos_set.add(10)  #.add() ile istenilen değer set'e eklenir ancak her değerden 1 adet eklenebilir
+      bos_set.add(10)
+      bos_set.add(20)
+      print(bos_set)
+[out] {10,20}
