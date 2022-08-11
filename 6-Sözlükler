@@ -3,14 +3,22 @@
 [out] 100
 ----------------------------------------------
 [in]  print(YemekKalori.items()
-[out] direct_items([('elma':100,'tost':150)])
-[in] 
+[out] direct_items([('elma':100,'tost':150)])=250
+----------------------------------------------
+[in]  YemekKalori["üzüm"]=250}
+      print(YemekKalori)
+[out] {'elma':100,'tost':150,'üzüm':250}
 
-[in] 
+#anahtar kelimeyi string seçip veriyi intiger tanımlayabiliriz ya da anahtar kelimeyi integer veriyi string tanımlayabiliriz
+sözlük={"mercedes":200,100:"BMW"}
+--------------------------------------------
+#iç içe sözlükler
+[in]  Yemek={"Sıcak:{"iskender":200,"çorba":300},"Soğuk":{"ayran":100,"cacık":250}}
+      print(Yemek["sıcak"]["çorba"]
+[out] 300
 
-[in] 
-
-[in] 
+[in]  print(Yemek["soğuk"]["cacık"]
+[out] 259
 
 [in] 
 
