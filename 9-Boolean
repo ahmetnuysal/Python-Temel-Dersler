@@ -1,1 +1,30 @@
+#Boolean'lara true veya false atayabiliriz
+
+[in]  x=true
+      print(type(x))
+[out] bool
+----------------------------------
+#Kontrollerde kullanılabilir
+[in]  notlar=[100,90,50,40,60,70,10]
+      sum(notlar)  #listedeki değerlerin toplamı çıktısı 420 olur
+      len(notlar)  #listede kaç eleman olduğu çıktısı 7 olur     #listedeki ilk notun ortalamadan büyük olup olmadığını kontrol eder
+      ortalama=sum(notlar)/len(notlar)
+      print(notlar[0]>ortalama)
+[out] True
+----------------------------------
+[in]  KullanıcıYası=input("Yaşınızı Giriniz: ")
+[out] Yaşınızı Giriniz: 15                   #kullanıcıdan yaşını alıyoruz ve 16dan büyük mü kontrol ediyoruz
+[in]  KullanıcıYası>16
+[out] False
+----------------------------------
+[in]  print(5==5)  #birşeyin eşitliğini kontrol etmek için == kullanılır
+[out] True
+
+[in]  print(3>1 or 2>4)   #3 1'den büyük veya 2 4'den büyükse 
+[out] True
+
+[in]  print(3<4 and 5<1)    #3 4'den küçükse ve 5 1'den küçükse  
+[out] False
+
+
 
