@@ -16,3 +16,29 @@
       y değerini giriniz: 3
       iki sayı eşittir
 -------------------------------------------------
+#stringlerde if
+[in]  ÖrnekString="python örnek"
+      if "pyt" in ÖrnekString:      #string içinde pyt geçiyorsa Yes, geçmiyorsa No bastırır
+         print("Yes")
+      else 
+         print("No")
+[out] Yes
+----------------------------------------------
+#listelerde if
+[in]  ÖrnekListe=[10,20,30,40,50]
+      if 60 in ÖrnekListe:         #liste içinde 60 varsa Yes, yoksa No bastırır
+         print("Yes")
+      else 
+         print("No")
+[out] No
+----------------------------------------------
+#sözlüklerde if
+[in]  ÖrnekSözlük={"elma":100,"tost":150}
+      if "elma" in kalori.keys        #Sözlükteki key'ler (anahtar sözcükler) içinde elma varya Yes, yoksa No bastırır
+         print("Yes")
+      else 
+         print("No")
+[out] Yes
+
+
+
