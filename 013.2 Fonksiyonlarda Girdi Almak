@@ -1,0 +1,12 @@
+[in]  def merhaba(isim):
+          print(f"merhaba, nasılsın {isim}")
+      merhaba("ahmet")
+[out] merhaba, nasılsın ahmet
+
+---------------------------------------------
+[in]  def toplama(num1,num2):
+         sonuc=num1 + num2
+         print(sonuc)
+      toplama(10,20)
+[out] 30
+
