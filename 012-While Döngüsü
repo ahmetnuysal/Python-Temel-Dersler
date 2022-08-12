@@ -1,0 +1,29 @@
+#Bir şey olduğu sürece yapmaya devam eder
+
+[in]  a=0
+      while a<10:
+         print(a)        #a 10'dan küçük olduğu sürece a'yı 1'er artırarak bastırır 
+         a=a+1 
+[out] 0
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+------------------------------
+[in]  a=0 
+      while True:
+          print(a)      #while true dediğimiz zaman döngü sürekli tekrar edicek ve a'yı 1 artırarak sonsuza kadar bastıracak
+          a=a+1
+[out] 0
+      1
+      2
+      3
+      4
+      .
+      .
+      .
