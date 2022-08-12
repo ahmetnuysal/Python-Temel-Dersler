@@ -1,0 +1,20 @@
+[in]  sayi=100
+      def bolme(num)
+          sayı=10
+          return sayı/num      #sayi fonksiyon içinde 10 olarak tanımlanır ancak sayi fonksiyon dışında 100'dür
+      bolme(2)
+[out] 5 
+[in]  bolme(5)
+[out] 2
+[in]  print(sayi)
+[out] 100 
+-----------------------------
+z=5
+[in]  def YeniFonksiyon():
+         global z             #global z dediğimiz için artık z fonksiyon dışında da 10 olarak kabul edilir, sadece z'yi çağırırsak 5 değil 10 gelir
+         z=10
+         print(z)
+      YeniFonksiyon()
+[out] 10
+[in]  print(z)
+[out] 10
