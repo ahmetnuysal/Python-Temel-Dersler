@@ -1,0 +1,22 @@
+# MAP
+[in]  yeni_liste=[1,2,3,4,5,6]
+      def çarpma(elema)
+          return eleman * 2
+      2xListe=list(map(çarpma,yeni_liste)  #yeni_listedeki bütün değerlere çarpma fonksiyonunu uygular çıkan sonuçları liste haline getirip 2xListe içine yazar
+      print(2xListe)
+[out] [2,4,6,8,10,12] 
+----------------------------------
+[in]  string_liste=["ankara","artvin","adana","adıyaman","adnan"]   
+      def StingKontrol(s)
+         return "ad" in s     #Listedeki stringlerin içinde "ad" geçiyor mu kontrol ediyor
+      print(liste(map(StringKontrol,string_liste))     #string_listesindeki bütün stringlere StringKontrol fonksiyonunu uygular eğer "ad" geçiyorsa true geçmiyorsa false 
+[out] [false,false,true,true,true]                      bastırıp sonucu liste olarak gösterir
+------------------------------------------------------------------------      
+# FILTER
+[in]  string_liste=["ankara","artvin","adana","adıyaman","adnan"]   
+      def StingKontrol(s)
+         return "ad" in s     #Listedeki stringlerin içinde "ad" geçiyor mu kontrol ediyor
+      print(liste(filter(StringKontrol,string_liste))    #filter yazdığımız zaman sadece içinde "ad" geçen stringleri bastırır
+[out] ['adana','adıyaman','adnan']   
+-----------------------------------------------------------------------
+#LAMBDA
