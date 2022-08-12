@@ -1,0 +1,6 @@
+#Fonksiyon içinde bir kod bloğu tanımlanır ve daha sonra o blok tek bir komutla çalıştırılır
+
+[in]  def Fonksiyon():        #def ile fonksiyon tanımlanır
+          print("Fonksiyon çalışıyor...")    #fonksiyonun içindeki kod bloğunu yazıyoruz
+      Fonksiyon()      #fonksiyonu çağırıyoruz
+[out] Fonksiyon çalışıyor...
