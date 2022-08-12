@@ -1,0 +1,18 @@
+[in]  def DegerDöndürenToplama(num1,num2):
+          print(num1+num2)
+          return num1+num2
+      print(y=DegerDöndürenToplama(10,20))
+[out] 30
+[in]  print(y)
+[out] 30
+[in]  type(y)
+[out] int
+
+#Eğer Fonksiyon içine "Return" yazmazsak değeri kaydetmez
+
+[in]  def DegerDöndürenToplama(num1,num2):
+          print(num1+num2)
+      print(y=DegerDöndürenToplama(10,20))
+[out] 30
+[in]  type(y)
+[out] NoneType
