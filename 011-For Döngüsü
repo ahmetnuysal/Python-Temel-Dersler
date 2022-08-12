@@ -28,3 +28,28 @@
       5
       8
 ----------------------------------------------------
+#for döngüsünde break ve continue
+[in]  liste=[10,20,30,40,50,60,70,80]
+      for num in liste:
+          if num == 50:               #break for döngüsünü bitirmek için kullanılır. Numara 50'ye eşit olunca döngü kapatılacak
+              break
+      print(num)
+[out] 10
+      20
+      30
+      40
+      
+[in]  liste=[10,20,30,40,50,60,70,80]
+      for num in liste:
+          if num == 50:
+              continue               #continue kullandığımızda döngü çalışmaya devam edicek ancak numara 50'ye eşit olduğunda 50'yi bastırmayacak ve sonrasında devam edicek
+      print(num)
+[out] 10
+      20
+      30
+      40
+      60
+      70
+      80
+ 
+
