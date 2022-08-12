@@ -1,1 +1,9 @@
+# Normalde fonksiyonlarda kaç adet değer giriceğimizi fonksiyonu tanımlarken belirtmemiz gerekir (def toplama(num1,num2)) ancak args ile bunu belirtmemize gerek kalmaz
 
+[in]  def SonsuzToplama(*x)
+          return sum(x)
+      print(SonsuzToplama(1,2,3,4))
+[out] 10
+
+[in]  print(SonsuzToplama(1,2,3,4))
+[out] 10
