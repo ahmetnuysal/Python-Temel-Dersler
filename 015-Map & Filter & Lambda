@@ -20,3 +20,11 @@
 [out] ['adana','adıyaman','adnan']   
 -----------------------------------------------------------------------
 #LAMBDA
+[in]  string_liste=["ankara","artvin","bursa","denizli","adnan"]   
+      print(list(filter(lambda string:"a" in sting,string_liste)
+[out] ['ankara','artvin','adnan']
+
+#fonksiyon yazmaya gerek kalmadan string_liste içindeki stringlerde "a" var mı diye kontrol eder
+[in]  carpma=lambda num:num * 3     # :'den önce girilen değer (num) input, :'dan sonra girilen işlem olur (num * 3)
+      carpma(20)
+[out] 60
