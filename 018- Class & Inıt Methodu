@@ -1,0 +1,26 @@
+[in]  class Meyve():
+          isim=""
+          kalori=0
+          renk=""
+      elma=Meyve()
+      elma.isim="Elma"
+      elma.kalori=100
+      elma.renkk="kırmızı"
+      print(type(elma))
+[out] __main__.Meyve
+[in]  print(elma.isim)
+[out] Elma
+-------------------------------------
+#INIT METHODU
+[in]  class Meyve():
+         def __init__(self,isim,kalori,renk):
+             self.isim=isim
+             self.kalori=kalori
+             self.renk=renk
+      elma=Meyve("Elma",100,"Kırmızı"):
+      elma.isim
+[out] Elma
+[in]  elma.kalori
+[out] 100
+[in]  elma.renk
+[out] kırmızı
