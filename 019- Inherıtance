@@ -1,0 +1,30 @@
+[in]  class Canli():
+         def __init__(self):
+             print("Canlı Sınıfı Inıt'i Çalıştırıldı")
+         def method1(self):
+             print("Method1 çalıştırıldı")
+         def method2(self):
+             print("Method2 çalıştırıldı")
+      ahmet=Canli()
+[out] Canlı Sınıfı Inıti Çalıştırıldı
+[in]  class Kopek(Canli):                              #üstte tanımladığımız Canli sınıfını Kopek sınıfı içine tanımlıyoruz bu sayede Canli sınıfı 
+         def __init__(self):                            içindeki diğer fonksiyonları(method1,method2) tekrar tanımlamamıza gerek kalmıyor
+            Canli.__init__(self)
+            print("Köpek Sınıfı Inıt'i Çalışıyor")
+         def havlamak(self)
+            print("hav")
+[in]  benim_kopek=Kopek()
+[out] Canlı Sınıfı Inıt'i Çalıştırıldı          #Kopek sınıfı içinde Canli sınıfıda ortak olduğu için Kopek() çalıştırılınca Canli sınıfının init'ide çalışıyor
+      Köpek Sınıfı Inıt'i Çalıştırıldı  
+[in]  benim_kopek.havlamak()
+[out] hav
+[in]  benim_kopek.method1()
+[out] Method1 Çalıştırıldı
+---------------------------------------------
+
+[in]
+[in]
+[in]
+[in]
+[in]
+[out]
