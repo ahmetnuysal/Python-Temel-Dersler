@@ -1,1 +1,29 @@
+[in]  def toplama(num1 + num2):
+         return num1+num2
+      try:
+         a=int(input("ilk numarayı giriniz: ")
+         b=int(input("ikinci numarayı giriniz: ")
+         toplama(a,b)
+      except:                                            #except kısmına yazdığımız kod fonksiyonda bir hata olması durumunda hata mesajı yerine bastırılır
+         print("lütfen doğru bir numara giriniz")
+   
+[out]ilk numarayı giriniz: 5
+     ikinci numarayı giriniz: ahmet
+     lütfen doğru bir numara giriniz
 
+------------------------------------------------------
+[in]  while True:         #while True fonksiyonun break olmadığı sürece sürekli çalışır
+        try:
+           int=int(input("Sayınızı Giriniz: ")
+        except:
+           print("Sanırım Hatalı Sayı Girdiniz")
+           continue
+        else:
+           print("Souçlarınız Yükleniyor")
+           break
+[out] Sayınızı Giriniz: ahmet
+      Sanırım Hatalı Sayı Girdiniz
+      Sayınızı Giriniz: abc
+      Sanırım Hatalı Sayı Girdiniz
+      Sayınızı Giriniz: 15
+      Sonuçlarınız Yükleniyor
