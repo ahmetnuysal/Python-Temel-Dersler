@@ -21,3 +21,8 @@
       bos_set.add(20)
       print(bos_set)
 [out] {10,20}
+----------------------------------------
+[in]  fruits={"apple","banana","cherry"}
+      more_fruits=["orange","mango","grapes"]
+      fruits.update(more_fruits)                         #iki seti birleştirebiliriz
+[out] fruits={"apple","banana","cherry","orange","mango","grapes"}
