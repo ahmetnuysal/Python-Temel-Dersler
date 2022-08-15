@@ -42,7 +42,7 @@ x.lower()   #lower bütüh harfleri küçük yazar
 [out]merhaba 
 ```
 ---
-## STRING'I INT'E ÇEVIRME
+## String'i Int'e Çevirme
 ```python
 x=input("x değerini giriniz: ")
 [out] x değerini giriniz: 7
@@ -57,7 +57,7 @@ type(x)
 [out] int
 ```
 ---
-## STRING'I FLOAT'A ÇEVİRME
+## String'i Float'a Çevirme
 ```python
 x=input("x: ")
 [out] x: 3.14
@@ -68,7 +68,7 @@ type(x)
 [out] float
 ```
 ---
-
+## len()
 ```python
 benim_adim="ahmet uysal"
 len(benim_adim)  #len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
