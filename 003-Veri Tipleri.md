@@ -68,9 +68,9 @@ type(x)
 [out] float
 ```
 ---
-#len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
+
 ```python
 benim_adim="ahmet uysal"
-len(benim_adim)
+len(benim_adim)  #len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
 [out] 11
 ```
