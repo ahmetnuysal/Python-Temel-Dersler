@@ -13,16 +13,19 @@ print(sonuc)
 type(sonuc) #type komutu sonucun türünü söyler
 [out] float
 ```
---------------------
-#kullanıcıdan input alırken
-[in] kullanıcı_yasi=input("Lütfen Yasinizi Giriniz: ") #sonuç default olarak str cinsinden verilir int'e çevirmemiz gerekir
+---
+# Kullanıcıdan Input Alırken
+```python
+kullanıcı_yasi=input("Lütfen Yasinizi Giriniz: ") #sonuç default olarak str cinsinden verilir int'e çevirmemiz gerekir
 [out] Lütfen Yasinizi Giriniz: 
---------------------
-FONKSİYONLAR  #. koyup "tab"a basarsak çalıştırılabilecek fonksiyonları gösterir
-[in] x="merhaba"
-     print(x.captalize())  #captalize kelimenin ilk harfini büyük yazdırır
+```
+---
+# FONKSİYONLAR 
+#. koyup "tab"a basarsak çalıştırılabilecek fonksiyonları gösterir
+```python x="merhaba"
+print(x.captalize())  #captalize kelimenin ilk harfini büyük yazdırır
 [out]Merhaba
-
+```
 [in]  x="34"
       x.endswitch(2)   #endswitch(2) kelimenin sonu 2 ile mi bitiyor kontrol eder
 [out] false
