@@ -1,32 +1,47 @@
-Toplama
-```python print(3+5)```
-[out] 8
+## Toplama
 
-Çıkartma
-[in] print(5-2)
-[out] 3
+```python
+print(3+5)
+```
 
-Çarpma 
-[in] print(3*5)
-[out] 15
+## Çıkartma
+```python
+print(5-2)
+```
 
-Bölme
-[in] print(10/2)
-[out] 5.0
+## Çarpma 
+```python
+print(3*5)
+```
 
-Üstlü
-[in] print(2**3)
-[out] 8
+## Bölme
+```python
+print(10/2)
+[out] 5.0 
+```
 
-Mod  #mod 10'u 3 böler ve kalanı bastırır
-[in] print(10%3)
+## Üstlü
+```python
+print(2**3)
+[out] 8 
+```
+
+## Mod  
+```python
+print(10%3)
 [out] 1
----------------------------------
-[in] KullanıcıYasi=15    #Kullanıcı adını tanımlıyoruz
-[in] print(KullanıcıYasi * 3)
+```
+---
+# Örnek
+```python
+KullanıcıYasi=15    #Kullanıcı adını tanımlıyoruz
+print(KullanıcıYasi * 3)
 [out] 45
---------------------------------
-[in] yari_cap=10
-[in] dairein_cevresi=2*3.14*yari_cap  #Yarı çapı yukarda tanımladığımız için direkt yarı çap diyebiliriz
-[in] print(dairenin_cevresi)
+```
+# Örnek 2
+```python
+yari_cap=10
+dairein_cevresi=2*3.14*yari_cap  #Yarı çapı yukarda tanımladığımız için direkt yarı çap diyebiliriz
+print(dairenin_cevresi)
 [out] 62.80000004
+```
