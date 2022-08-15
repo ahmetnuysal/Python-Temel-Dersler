@@ -1,14 +1,18 @@
-int (integer) : Tam Sayı
-float : Kesirli Sayı
-str (sting) : Kelime
---------------------
-[in] x=10
-     y=20
-     sonuc=x/y
-     print(sonuc)
+* int (integer) : Tam Sayı
+* float : Kesirli Sayı
+* str (sting) : Kelime
+---
+```python
+x=10
+y=20
+sonuc=x/y
+print(sonuc)
 [out] 0.5
-[in] type(sonuc) #type komutu sonucun türünü söyler
+```
+```python
+type(sonuc) #type komutu sonucun türünü söyler
 [out] float
+```
 --------------------
 #kullanıcıdan input alırken
 [in] kullanıcı_yasi=input("Lütfen Yasinizi Giriniz: ") #sonuç default olarak str cinsinden verilir int'e çevirmemiz gerekir
