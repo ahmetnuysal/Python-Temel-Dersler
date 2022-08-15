@@ -14,47 +14,63 @@ type(sonuc) #type komutu sonucun türünü söyler
 [out] float
 ```
 ---
-# Kullanıcıdan Input Alırken
+## Kullanıcıdan Input Alırken
 ```python
 kullanıcı_yasi=input("Lütfen Yasinizi Giriniz: ") #sonuç default olarak str cinsinden verilir int'e çevirmemiz gerekir
 [out] Lütfen Yasinizi Giriniz: 
 ```
 ---
-# FONKSİYONLAR 
+## Fonksiyonlar 
 #. koyup "tab"a basarsak çalıştırılabilecek fonksiyonları gösterir
 ```python x="merhaba"
 print(x.captalize())  #captalize kelimenin ilk harfini büyük yazdırır
 [out]Merhaba
 ```
-[in]  x="34"
-      x.endswitch(2)   #endswitch(2) kelimenin sonu 2 ile mi bitiyor kontrol eder
+```python
+x="34"
+x.endswitch(2)   #endswitch(2) kelimenin sonu 2 ile mi bitiyor kontrol eder
 [out] false
-
-[in] benim_adim="ahmet"
-     benim_adim.islower()  #islower bütün harfler küçük mü kontrol eder
+```
+```python
+benim_adim="ahmet"
+benim_adim.islower()  #islower bütün harfler küçük mü kontrol eder
 [out]True
-
-[in] x="MerHaBA"
-     x.lower()   #lower bütüh harfleri küçük yazar
+```
+```python
+x="MerHaBA"
+x.lower()   #lower bütüh harfleri küçük yazar
 [out]merhaba 
--------------------------
-STRING'I INT'E ÇEVIRME
-[in] x=input("x değerini giriniz: ")
+```
+---
+## STRING'I INT'E ÇEVIRME
+```python
+x=input("x değerini giriniz: ")
 [out] x değerini giriniz: 7
-[in] type(x)
+```
+```python 
+type(x)
 [out] str
-[in] x=int(x)  #x değerini intiger'a çeviri
-     type(x)
+```
+```python
+x=int(x)  #x değerini intiger'a çeviri
+type(x)
 [out] int
--------------------------
-STRING'I FLOAT'A ÇEVİRME
-[in] x=input("x: ")
+```
+---
+## STRING'I FLOAT'A ÇEVİRME
+```python
+x=input("x: ")
 [out] x: 3.14
-[in] float(x)=x
-     type(x)
+```
+```python
+float(x)=x
+type(x)
 [out] float
------------------------
+```
+---
 #len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
-[in]benim_adim="ahmet uysal"
-    len(benim_adim)
+```python
+benim_adim="ahmet uysal"
+len(benim_adim)
 [out] 11
+```
