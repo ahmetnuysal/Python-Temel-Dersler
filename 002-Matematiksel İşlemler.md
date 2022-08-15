@@ -1,5 +1,5 @@
 Toplama
-[in] print(3+5)
+```python print(3+5)```
 [out] 8
 
 Çıkartma
