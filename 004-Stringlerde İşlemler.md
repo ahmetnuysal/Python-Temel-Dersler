@@ -1,19 +1,19 @@
 ```python
 #stringleri toplayabiliriz
 
-[in] benim_adim="ahmet"
-     benim_soyadim="uysal"
-     print(benim_adim + " " + benim_soyadim)
+benim_adim="ahmet"
+benim_soyadim="uysal"
+print(benim_adim + " " + benim_soyadim)
 [out] ahmet uysal
 --------------------------------------
 #stingler sayılmaya 0'dan başlarlar
-[in] baskent="ankara"
-     print(baskent[0])
+baskent="ankara"
+print(baskent[0])
 [out] 'a'
 
 #-1'inci karakteri istersek eğer son karakteri bastırır
-[in] örnek="bu bir örnek cümledir"
-     print(örnek[-1])
+örnek="bu bir örnek cümledir"
+print(örnek[-1])
 [out] 'r'
 -------------------------------------------
 #starting index-stopping index-slicing
