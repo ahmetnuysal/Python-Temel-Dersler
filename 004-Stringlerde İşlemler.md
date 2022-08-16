@@ -17,28 +17,28 @@ print(örnek[-1])
 [out] 'r'
 -------------------------------------------
 #starting index-stopping index-slicing
-       0123
-[in]x="python test"
-    print(x[4:])          #sonucu 4. karakterden itibaren basmaya başlar
+   0123
+x="python test"
+print(x[4:])          #sonucu 4. karakterden itibaren basmaya başlar
 [out] on test
 
-        012345678
-[in] x="python test"
-     print(x[2:5])      #sonucu 2. karakterden basmaya başlar ve 5. karaktere kadar yazdırır
+   012345678
+x="python test"
+print(x[2:5])      #sonucu 2. karakterden basmaya başlar ve 5. karaktere kadar yazdırır
 [out] tho
 
-        01234
-[in] x="python test"
-     print(x[:4])      #4. karaktere kadar olan kısımı bastırır
+   01234
+x="python test"
+print(x[:4])      #4. karaktere kadar olan kısımı bastırır
 [out] pyth
 
-        012345678910
-[in] x="python test"
-     print(x[3:11:4]   #bastırmaya 3. karakterden başlar 11. karaktere kadar 4 karakter atlayarak bastırır
+   012345678910
+x="python test"
+print(x[3:11:4]   #bastırmaya 3. karakterden başlar 11. karaktere kadar 4 karakter atlayarak bastırır
 [out] ht
 
 
-[in] x="python test"
-     print(x[::-1])   #kelimeyi tersden yazdırır
+x="python test"
+print(x[::-1])   #kelimeyi tersden yazdırır
 [out] tset nohtyp
 ```
