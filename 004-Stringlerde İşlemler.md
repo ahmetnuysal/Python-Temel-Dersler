@@ -1,3 +1,4 @@
+```python
 #stringleri toplayabiliriz
 
 [in] benim_adim="ahmet"
@@ -40,3 +41,4 @@
 [in] x="python test"
      print(x[::-1])   #kelimeyi tersden yazdırır
 [out] tset nohtyp
+```
