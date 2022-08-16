@@ -1,11 +1,11 @@
 ```python
-#stringleri toplayabiliriz
+## stringleri toplayabiliriz
 
 benim_adim="ahmet"
 benim_soyadim="uysal"
 print(benim_adim + " " + benim_soyadim)
 [out] ahmet uysal
---------------------------------------
+---
 #stingler sayılmaya 0'dan başlarlar
 baskent="ankara"
 print(baskent[0])
