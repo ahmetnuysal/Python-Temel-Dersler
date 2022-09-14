@@ -16,6 +16,9 @@
   - [String'i Float'a Çevirme](#String'i-Float'a-Çevirme)
   - [len()](#len())
 - [Stringlerde İşlemler](#Stringlerde-İşlemler)
+  - [Stringleri Toplama](#Stringleri-Toplama)
+  - [Stingleri Sayma](#Stringleri-Sayma)
+  - [Starting Index-Stopping Index-Slicing](#starting-index-stopping-index-slicing)
 - [Listeler](#Listeler)
 - [İç İçe Listeler](#İç-İç-Listeler)
 - [Sözlükler](#Sözlükler)
@@ -117,7 +120,9 @@ kullanıcı_yasi=input("Lütfen Yasinizi Giriniz: ") #sonuç default olarak str 
 ```
 
 > ## Fonksiyonlar 
+
 ! . koyup "tab"a basarsak çalıştırılabilecek fonksiyonları gösterir
+
 ```python x="merhaba"
 print(x.captalize())  #captalize kelimenin ilk harfini büyük yazdırır
 [out]Merhaba
@@ -170,4 +175,60 @@ benim_adim="ahmet uysal"
 len(benim_adim)  #len() kelimenin kaç karakterden oluştuğunu söyler, boşluğuda karakterden sayar
 [out] 11
 ```
+# Stringlerde İşlemler
+
+> ## Stringleri Toplama
+
+```python
+benim_adim="ahmet"
+benim_soyadim="uysal"
+print(benim_adim + " " + benim_soyadim)
+[out] ahmet uysal
+```
+> ## Stringleri Sayma
+
+- stingler sayılmaya 0'dan başlarlar
+
+```python
+baskent="ankara"
+print(baskent[0])
+[out] 'a'
+```
+
+- -1'inci karakteri istersek eğer son karakteri bastırır
+
+```python
+örnek="bu bir örnek cümledir"
+print(örnek[-1])
+[out] 'r'
+```
+
+> ## Starting Index-Stopping Index-Slicing
+```python   
+   0123
+x="python test"
+print(x[4:])          #sonucu 4. karakterden itibaren basmaya başlar
+[out] on test
+
+   012345678
+x="python test"
+print(x[2:5])      #sonucu 2. karakterden basmaya başlar ve 5. karaktere kadar yazdırır
+[out] tho
+
+   01234
+x="python test"
+print(x[:4])      #4. karaktere kadar olan kısımı bastırır
+[out] pyth
+
+   012345678910
+x="python test"
+print(x[3:11:4]   #bastırmaya 3. karakterden başlar 11. karaktere kadar 4 karakter atlayarak bastırır
+[out] ht
+
+x="python test"
+print(x[::-1])   #kelimeyi tersden yazdırır
+[out] tset nohtyp
+```
+
+
 
